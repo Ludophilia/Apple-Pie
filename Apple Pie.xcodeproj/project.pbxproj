@@ -13,6 +13,7 @@
 		190AF19E26023F9500783944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190AF19C26023F9500783944 /* Main.storyboard */; };
 		190AF1A026023F9800783944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190AF19F26023F9800783944 /* Assets.xcassets */; };
 		190AF1A326023F9800783944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190AF1A126023F9800783944 /* LaunchScreen.storyboard */; };
+		19A518E5260A2353003D24A7 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A518E4260A2353003D24A7 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		190AF19F26023F9800783944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190AF1A226023F9800783944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190AF1A426023F9800783944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A518E4260A2353003D24A7 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				190AF19826023F9500783944 /* SceneDelegate.swift */,
 				190AF19A26023F9500783944 /* ViewController.swift */,
 				190AF19C26023F9500783944 /* Main.storyboard */,
+				19A518E4260A2353003D24A7 /* Game.swift */,
 				190AF19F26023F9800783944 /* Assets.xcassets */,
 				190AF1A126023F9800783944 /* LaunchScreen.storyboard */,
 				190AF1A426023F9800783944 /* Info.plist */,
@@ -140,6 +143,7 @@
 				190AF19B26023F9500783944 /* ViewController.swift in Sources */,
 				190AF19726023F9500783944 /* AppDelegate.swift in Sources */,
 				190AF19926023F9500783944 /* SceneDelegate.swift in Sources */,
+				19A518E5260A2353003D24A7 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
