@@ -21,4 +21,4 @@ L'application est optimisée pour iPad Pro/iOS 14.
 
 ## Captures
 
-<img src="walkthough_ipad_pro.gif" style="text-align : center">
+<img src="walkthough_ipad_pro.gif" style="height:750px">
